@@ -1,3 +1,13 @@
+/* Font Family  */
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;800&display=swap'); */
+@font-face {
+  font-family: 'FilsonSoft';
+  src: url('./assest/FilsonSoft/FilsonProBook-Book.otf');
+  src: url('./assest/FilsonSoft/FilsonProBlack-Black.otf');
+  src: url('./assest/FilsonSoft/FilsonProHeavy-Heavy.otf');
+  src: url('./assest/FilsonSoft/FilsonProLight-Light.otf');
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -31,7 +41,6 @@
 }
 
 .search .search-input {
-  /* padding: 0 20px; */
   text-align: center;
   width: 7rem;
   caret-color: #536bf6;
@@ -55,4 +64,46 @@
   padding: 20px;
   color: #000;
 }
-
+.main_header_hi{
+  padding: 20px 0 0 20px;
+}
+.main_header_hi h2{
+  font-size: 4rem;
+  font-family: 'FilsonSoft';
+  font-weight: bolder !important;
+}
+.header_p p{
+  font-size: 12px;
+  line-height: 2;
+}
+.header_button{
+  margin-top: 30px;
+  padding: 10px;
+}
+.btn_purple{
+  color: #fff !important;
+  background-color: #8873ef !important;
+  border-radius: 12px !important;
+  transition: 0.5s ease !important;
+}
+.btn_purple:hover{
+  color: #8873ef !important;
+  background-color: #fff !important;
+  transition: 0.5s ease;
+}
+.header_button .btn_purple{
+  padding: 10px 15px 10px 15px;
+}
+.header_social{
+  margin-top: 2em;
+  padding: 30px;
+}
+.header_social span{
+  margin-right: 25px;
+}
+.header_social a{
+  background: #f6f5f5e6;
+  padding: 10px;
+  border-radius: 20px;
+  margin-left: 30px;
+}
